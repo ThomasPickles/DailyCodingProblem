@@ -3,13 +3,14 @@
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>4b402cdd-0868-471f-9a81-70bbd61721b0</ProjectGuid>
-    <ProjectHome>.</ProjectHome>
-    <StartupFile>HasPair.py</StartupFile>
+    <ProjectHome>
+    </ProjectHome>
+    <StartupFile>Problem7.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
     <OutputPath>.</OutputPath>
-    <Name>ListIntersection</Name>
+    <Name>CodingProblems</Name>
     <RootNamespace>ListIntersection</RootNamespace>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
@@ -22,12 +23,31 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="ListIntersection.py" />
-    <Compile Include="HasPair.py">
+    <Compile Include="Problem7.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="Problem6.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Problem3.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Problem1.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Problem2.py" />
+    <Compile Include="Problem4.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="problem5.py" />
     <Compile Include="TwoStep.py">
       <SubType>Code</SubType>
     </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Problem2_array_product.txt" />
+    <Content Include="Problem1_k_complement.txt" />
+    <Content Include="Problem2_serialise_binary_tree.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in

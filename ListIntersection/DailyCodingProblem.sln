@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30204.135
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "ListIntersection", "ListIntersection\ListIntersection.pyproj", "{4B402CDD-0868-471F-9A81-70BBD61721B0}"
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "CodingProblems", "ListIntersection\CodingProblems.pyproj", "{4B402CDD-0868-471F-9A81-70BBD61721B0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

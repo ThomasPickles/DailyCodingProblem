@@ -6,11 +6,11 @@
 
 
 def has_pair(data, k):
-    complements = []
+    complements = set()
     for value in data:
-        if value in complements:
+        if value in complements: # This operation is O(1).  Uses hash table implementation
             return True
-        complements.append(k - value)
+        complements.add(k - value)
     return False
 
 assert has_pair([10, 15, 3, 7], 17) == True, "Should contain pair"
